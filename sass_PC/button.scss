@@ -1,0 +1,50 @@
+@import "variables.scss";
+
+.btn {
+  height: 30px;
+  line-height: 30px;
+  color: $btn-text-color;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+
+  &.btn-normal {
+    padding:5px 0;
+    width: 120px;
+  }
+
+  &.btn-small {
+    padding: 0 10px;
+  }
+
+  &.btn-large {
+    padding: 10px 5px;
+  }
+
+  &.btn-red {
+    background: $red;
+    color: $white;
+    &:hover {
+      background: #fb5c56;
+    }
+  }
+
+  &.btn-yellow {
+    background: #fbb923;
+    color: $white;
+    &:hover {
+      background: #fbac06;
+    }
+  }
+
+  &.btn-purple {
+    background: $purple;
+    color: $white;
+    &:hover {
+      background: #b837d9;
+    }
+  }
+
+}

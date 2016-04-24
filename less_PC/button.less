@@ -1,0 +1,84 @@
+// File name reset.less
+@import "variables.less";
+
+.btn {
+  border-style: solid;
+  border-width: @btn-border-width;
+  height: 30px;
+  line-height: 30px;
+  color: @btn-text-color;
+  cursor: pointer;
+  border-radius: @btn-border-radius;
+  font-size: 14px;
+  outline: none;
+  color: @text-gray;
+
+  &.btn-normal {
+    width: 130px;
+  }
+
+  &.btn-small {
+    padding: 0 10px;
+  }
+
+  &.btn-large {
+    width: 260px;
+  }
+
+  &.btn-red {
+    background: @red;
+    border-color: @btn-border-colorRed;
+    box-shadow: 0 0 1px rgba(0,0,0,.5) inset;
+    color: @white;
+    &:hover {
+      background: #fb5c56;
+    }
+  }
+
+  &.btn-orange {
+    background: #fbb923;
+    border-color: #fbc017;
+    color: @white;
+    &:hover {
+      background: #fbac06;
+    }
+  }
+
+  &.btn-white {
+    background: @white;
+    border-color: @btn-border-colorRed;
+    color: @red;
+    &:hover {
+      background: @red;
+      color: @white;
+    }
+  }
+
+  &.btn-blue {
+    background: @blue;
+    border-color: @blue;
+    color: @white;
+    &:hover {
+      background: #1164ee;
+      color: @white;
+    }
+  }
+
+  &.btn-black {
+    background: rgb(108,109,110);
+    border-color: rgb(144,145,146);
+    color: @white;
+    &:hover {
+      background: rgb(130,130,130);
+    }
+  }
+
+  &.btn-gray {
+    background: #f1f1f1;
+    border-color: @btn-border-colorGray;
+    color: #666;
+    &:hover {
+      background: @gray;
+    }
+  }
+}
